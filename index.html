@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pembelajaran SPLDV</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    nav {
+      background-color: #4a90e2;
+      padding: 1rem 0;
+    }
+
+    .wrapper {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .logo a {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+
+    .menu ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+    }
+
+    .menu ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 50px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    section#home {
+      background-color: #eaf6ff;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    section img {
+      width: 300px;
+      max-width: 100%;
+    }
+
+    .kolom h2 {
+      color: #2c3e50;
+    }
+
+    .tbl-pink {
+      background-color: #ff5f9e;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .tbl-biru {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 40px 0;
+    }
+
+    .footer-section {
+      margin-bottom: 20px;
+    }
+
+    footer a {
+      color: #ecf0f1;
+      text-decoration: none;
+    }
+
+    #copyright {
+      text-align: center;
+      font-size: 0.9em;
+      padding-top: 20px;
+      border-top: 1px solid #555;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="#">SPLDV Learn</a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#materi">Materi</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#latihan">Latihan</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <section id="home">
+      <img src="https://img.freepik.com/free-vector/maths-concept-illustration_114360-1205.jpg" alt="Ilustrasi SPLDV">
+      <div class="kolom">
+        <h2>Selamat Datang di Pembelajaran SPLDV</h2>
+        <p class="deskripsi">Mudah dan menyenangkan belajar Sistem Persamaan Linear Dua Variabel secara daring.</p>
+        <p>SPLDV merupakan materi penting dalam matematika yang digunakan untuk menyelesaikan masalah sehari-hari dengan dua variabel.</p>
+        <a href="#materi" class="tbl-pink">Mulai Belajar</a>
+      </div>
+    </section>
+
+    <section id="materi">
+      <div class="kolom">
+        <h2>Apa itu SPLDV?</h2>
+        <p>Sistem Persamaan Linear Dua Variabel (SPLDV) adalah sistem yang terdiri atas dua persamaan linear dengan dua variabel.</p>
+        <p>Contoh:</p>
+        <ul>
+          <li>Persamaan 1: 2x + y = 10</li>
+          <li>Persamaan 2: x - y = 1</li>
+        </ul>
+        <p>Cara penyelesaiannya antara lain:</p>
+        <ul>
+          <li>Metode Substitusi</li>
+          <li>Metode Eliminasi</li>
+          <li>Metode Grafik</li>
+        </ul>
+        <img src="https://img.freepik.com/free-vector/linear-equation-concept-illustration_114360-9058.jpg" alt="Metode SPLDV" style="width:100%; max-width:400px; margin-top:20px;">
+      </div>
+    </section>
+
+    <section id="video">
+      <div class="kolom">
+        <h2>Video Pembelajaran</h2>
+        <p>Tonton video ini untuk memahami konsep SPLDV lebih dalam:</p>
+        <iframe src="https://www.youtube.com/embed/kOQ1VDYK8a8" 
+          title="Video Pembelajaran SPLDV"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="latihan">
+      <div class="kolom">
+        <h2>Latihan Soal</h2>
+        <p>Cobalah menyelesaikan soal berikut:</p>
+        <ol>
+          <li>Jika 2x + 3y = 12 dan x + y = 5, berapakah nilai x dan y?</li>
+          <li>Suatu toko menjual 2 buku dan 1 pensil seharga Rp15.000, sedangkan 1 buku dan 2 pensil seharga Rp10.000. Tentukan harga masing-masing!</li>
+        </ol>
+        <p><a href="#kontak" class="tbl-biru">Kirim Jawaban</a></p>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <div class="kolom">
+        <h2>Hubungi Kami</h2>
+        <p>Untuk pertanyaan dan diskusi lebih lanjut, silakan hubungi kami:</p>
+        <ul>
+          <li>Email: putriwati001@sma.belajar.id</li>
+          <li>WhatsApp: 0858-3531-6874</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="wrapper">
+      <div class="footer-section">
+        <h3>SPLDV Learn</h3>
+        <p>Platform pembelajaran interaktif untuk materi Matematika SMP.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Tautan</h3>
+        <p><a href="#materi">Materi</a> | <a href="#video">Video</a> | <a href="#latihan">Latihan</a></p>
+      </div>
+      <div class="footer-section">
+        <h3>Sosial Media</h3>
+        <p><b>YouTube:</b> SPLDV Channel</p>
+      </div>
+    </div>
+    <div id="copyright">
+      &copy; 2025 SPLDV Learn. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
